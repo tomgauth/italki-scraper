@@ -33,6 +33,11 @@ FLAG_TO_GROUP = {
 }
 
 
+ITALKI_BONUS = 2      # Tom has credit on italki, so italki profiles get a boost
+TOP_MATCH_MIN = 10    # score at or above this = "coup de coeur" tier
+NEW_MAX_LESSONS = 300  # under this (or explicit newness) = trainable new teacher
+
+
 def enrich(teacher: dict) -> dict:
     text = " ".join(filter(None, [
         teacher.get("bio", ""),
@@ -47,9 +52,15 @@ def enrich(teacher: dict) -> dict:
         group = FLAG_TO_GROUP.get(str(flag).strip().lower())
         if group:
             hits.setdefault(group, [str(flag)])
+    if teacher.get("teaches_beginners") is True:
+        hits.setdefault("beginner", ["teaches beginners"])
     teacher["keyword_groups"] = sorted(hits.keys())
     teacher["keyword_labels"] = [LABELS[g] for g in sorted(hits, key=lambda g: -KEYWORD_GROUPS[g][0])]
-    teacher["score"] = score(hits)
+    teacher["score"] = score(hits) + (ITALKI_BONUS if teacher.get("platform") == "italki" else 0)
+    lessons = teacher.get("lessons_count")
+    teacher["is_new"] = bool(teacher.get("is_new")) or (
+        lessons is not None and lessons < NEW_MAX_LESSONS)
+    teacher["is_top"] = teacher["score"] >= TOP_MATCH_MIN
     return teacher
 
 

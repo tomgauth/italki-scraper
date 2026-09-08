@@ -12,7 +12,10 @@ rationality, chunk-based learning).
   (native German filter, speaks English, origin country DE).
 - `preply_scraper.py`: Playwright scraper for the Preply listing
   (native + adaptable + goal focused filters) and tutor profiles.
-- `keywords.py`: weighted keyword groups + scoring.
+- `keywords.py`: weighted keyword groups + scoring. `build_report.py` adds a
+  +2 italki bonus (Tom has credit there) and classifies two tiers:
+  `is_top` (score >= 10) and `is_new` (< 300 lessons or newly joined,
+  trainable teachers with open calendars).
 - `merge_search_data.py`: merges/normalizes datasets into `data/teachers.json`.
 - `build_report.py` + `template.html`: renders `report/german-teachers.html`,
   a filterable card view in the De Prof à Pro v3 brand style.

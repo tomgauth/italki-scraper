@@ -71,7 +71,10 @@ h1{font-size:clamp(32px,5.2vw,50px);line-height:1.05;margin:.05em 0 .3em}
 .card:hover{transform:translateY(-4px);box-shadow:0 10px 0 var(--line-d)}
 .card.fav{border-color:var(--coral);box-shadow:0 6px 0 var(--coral-b)}
 .card.fav:hover{box-shadow:0 10px 0 var(--coral-b)}
-.favtag{font-family:Caveat,cursive;font-weight:600;font-size:20px;color:var(--coral-d);transform:rotate(-2deg);align-self:flex-start;margin:-6px 0 -8px}
+.tiers{display:flex;gap:8px;flex-wrap:wrap;margin:-2px 0 -4px}
+.ttag{font-size:12px;font-weight:800;border-radius:999px;padding:5px 12px;letter-spacing:.02em}
+.ttag.top{color:var(--coral-d);background:var(--rose);box-shadow:0 3px 0 var(--rose-sh)}
+.ttag.new{color:var(--turq-d);background:var(--mint);box-shadow:0 3px 0 var(--mint-sh)}
 .chead{display:flex;gap:14px;align-items:center}
 .avatar{flex:none;width:58px;height:58px;border-radius:50%;object-fit:cover;border:2px solid var(--line);box-shadow:0 3px 0 var(--line-d);background:var(--cream-2)}
 .avatar.ph{display:grid;place-items:center;font-family:"Bricolage Grotesque",Inter,sans-serif;font-weight:800;font-size:21px;color:#fff}
@@ -124,7 +127,7 @@ h1{font-size:clamp(32px,5.2vw,50px);line-height:1.05;margin:.05em 0 .3em}
 
   <p class="kick">la shortlist des profs qui te ressemblent ✦</p>
   <h1>De l'allemand qui parle, <span class="hl">pas qui récite</span>.</h1>
-  <p class="lede">Des profs natifs, nés en Allemagne, qui parlent anglais. Triés par affinité avec ce que tu cherches : conversation détendue, méthode flexible, objectifs concrets, et les signaux rares (Berlin, Anki, spaced repetition, vegan, effective altruism, chunks). Le score additionne les signaux trouvés dans leur profil.</p>
+  <p class="lede">Uniquement des profs dont l'allemand est la langue maternelle, nés en Allemagne, qui parlent anglais et prennent les débutants. Triés par affinité : conversation détendue, méthode flexible, objectifs concrets, et les signaux rares (Berlin, Anki, spaced repetition, vegan, effective altruism, chunks). Bonus de +2 pts pour italki (tu y as du crédit). Deux familles à repérer : les coups de cœur 💎 et les nouveaux profs à façonner 🌱 (moins de 300 cours, agenda ouvert).</p>
 
   <div class="stats" id="stats"></div>
 
@@ -136,6 +139,12 @@ h1{font-size:clamp(32px,5.2vw,50px);line-height:1.05;margin:.05em 0 .3em}
         <option value="price">Tri : prix croissant</option>
         <option value="name">Tri : nom A→Z</option>
       </select>
+    </div>
+    <div class="row">
+      <span class="flab">Type de prof</span>
+      <button class="fchip" data-tier="all" aria-pressed="true">Tous</button>
+      <button class="fchip" data-tier="top" aria-pressed="false">💎 Coups de cœur</button>
+      <button class="fchip" data-tier="new" aria-pressed="false">🌱 Nouveaux à former</button>
     </div>
     <div class="row">
       <span class="flab">Plateforme</span>
@@ -162,11 +171,11 @@ h1{font-size:clamp(32px,5.2vw,50px);line-height:1.05;margin:.05em 0 .3em}
 
   <div class="co sable">
     <div class="em">🧮</div>
-    <p><strong>Comment le score marche :</strong> chaque famille de signaux trouvée dans le profil rapporte des points. Anki / SRS, lifestyle (vegan, EA, rationality) et chunks : 4 pts. Berlin, flexible, objectifs, débutant : 3 pts. Conversation et style décontracté : 2 pts. Maximum possible : 28 pts.</p>
+    <p><strong>Comment le score marche :</strong> chaque famille de signaux trouvée dans le profil rapporte des points. Anki / SRS, lifestyle (vegan, EA, rationality) et chunks : 4 pts. Berlin, flexible, objectifs, débutant : 3 pts. Conversation et style décontracté : 2 pts. Et +2 pts pour les profs italki, puisque ton crédit est là-bas. Maximum : 30 pts. 💎 Coup de cœur = score ≥ 10. 🌱 À former = moins de 300 cours donnés (ou prof tout juste arrivé sur la plateforme), l'idéal quand tu sais exactement ce que tu veux.</p>
   </div>
   <div class="co rose">
     <div class="em">☝️</div>
-    <p><strong>À vérifier avant de réserver :</strong> les dispos exactes s'affichent sur le profil (les calendriers bougent tous les jours). Ces fiches viennent des textes publics des profils ; un signal absent du score peut quand même exister chez le prof, le texte indexé ne dit pas tout.</p>
+    <p><strong>À vérifier avant de réserver :</strong> les dispos exactes s'affichent sur le profil (les calendriers bougent tous les jours). Ces fiches viennent des textes publics des profils : un signal absent peut exister quand même, les compteurs de cours ne sont connus que pour une partie des profs, et « ok débutants » est vérifié quand le profil le dit (les profils qui excluent les débutants ont été retirés).</p>
   </div>
 
   <div class="foot">
@@ -184,10 +193,11 @@ const GROUP_LABELS = {
   flexible: "🤸 Flexible", goal_based: "🎯 Objectifs", beginner: "🌱 Débutant"
 };
 const RARE = ["berlin", "anki_srs", "lifestyle", "chunks"];
-const MAX_SCORE = 28;
+const MAX_SCORE = 30;
 const AV_COLORS = ["#13b0ab", "#fb5a63", "#ff7a2e", "#16323a"];
 
-const state = { q: "", platform: "all", groups: new Set(), sort: "score" };
+const state = { q: "", platform: "all", tier: "all", groups: new Set(), sort: "score" };
+const italkiFirst = (a, b) => (a.platform === "italki" ? 0 : 1) - (b.platform === "italki" ? 0 : 1);
 
 function priceNum(t) {
   if (!t.price) return null;
@@ -198,6 +208,8 @@ function priceNum(t) {
 function visible() {
   let list = TEACHERS.filter(t => {
     if (state.platform !== "all" && t.platform !== state.platform) return false;
+    if (state.tier === "top" && !t.is_top) return false;
+    if (state.tier === "new" && !t.is_new) return false;
     for (const g of state.groups) if (!t.keyword_groups.includes(g)) return false;
     if (state.q) {
       const hay = (t.name + " " + (t.city || "") + " " + (t.bio_snippets || []).join(" ")).toLowerCase();
@@ -205,7 +217,7 @@ function visible() {
     }
     return true;
   });
-  if (state.sort === "score") list.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
+  if (state.sort === "score") list.sort((a, b) => b.score - a.score || italkiFirst(a, b) || a.name.localeCompare(b.name));
   if (state.sort === "name") list.sort((a, b) => a.name.localeCompare(b.name));
   if (state.sort === "price") list.sort((a, b) => {
     const pa = priceNum(a), pb = priceNum(b);
@@ -229,7 +241,7 @@ function avatarHtml(t, i) {
     onerror="this.outerHTML='${ph.replace(/'/g, "&#39;")}'">`;
 }
 
-function cardHtml(t, i, topScore) {
+function cardHtml(t, i) {
   const chips = t.keyword_groups
     .slice().sort((a, b) => RARE.includes(b) - RARE.includes(a))
     .map(g => `<span class="chip2 ${RARE.includes(g) ? "s" : "t"}">${GROUP_LABELS[g]}</span>`).join("");
@@ -243,9 +255,13 @@ function cardHtml(t, i, topScore) {
                 t.lessons ? esc(t.lessons) + " cours" : null,
                 (t.confidence && t.confidence !== "high") ? "natif à confirmer" : null]
     .filter(Boolean).join(" · ");
-  const fav = t.score === topScore && t.score > 0;
-  return `<article class="card${fav ? " fav" : ""}">
-    ${fav ? `<span class="favtag">coup de cœur ✦</span>` : ""}
+  const lessonsNote = t.lessons_count != null ? " · " + t.lessons_count + " cours" : "";
+  const tiers = [
+    t.is_top ? `<span class="ttag top">💎 coup de cœur</span>` : "",
+    t.is_new ? `<span class="ttag new">🌱 à former${lessonsNote}</span>` : "",
+  ].join("");
+  return `<article class="card${t.is_top ? " fav" : ""}">
+    ${tiers ? `<div class="tiers">${tiers}</div>` : ""}
     <div class="chead">
       ${avatarHtml(t, i)}
       <div>
@@ -269,9 +285,8 @@ function cardHtml(t, i, topScore) {
 
 function render() {
   const list = visible();
-  const topScore = TEACHERS.reduce((m, t) => Math.max(m, t.score), 0);
   document.getElementById("grid").innerHTML = list.length
-    ? list.map((t, i) => cardHtml(t, i, topScore)).join("")
+    ? list.map((t, i) => cardHtml(t, i)).join("")
     : `<div class="empty" style="grid-column:1/-1">Aucun prof ne coche tout ça à la fois. Enlève un filtre ✦</div>`;
   document.getElementById("count").textContent =
     list.length + " prof" + (list.length > 1 ? "s" : "") + " sur " + TEACHERS.length + " ✦";
@@ -280,13 +295,14 @@ function render() {
 function renderStats() {
   const n = TEACHERS.length;
   const berlin = TEACHERS.filter(t => t.keyword_groups.includes("berlin")).length;
-  const rare = TEACHERS.filter(t => t.keyword_groups.some(g => ["anki_srs", "lifestyle", "chunks"].includes(g))).length;
+  const top = TEACHERS.filter(t => t.is_top).length;
+  const fresh = TEACHERS.filter(t => t.is_new).length;
   const italki = TEACHERS.filter(t => t.platform === "italki").length;
   document.getElementById("stats").innerHTML = `
-    <div class="stat"><span class="em">🧑‍🏫</span><b>${n}</b><span>profs natifs retenus</span></div>
-    <div class="stat c"><span class="em">🐻</span><b>${berlin}</b><span>basés à Berlin</span></div>
-    <div class="stat o"><span class="em">💎</span><b>${rare}</b><span>avec un signal rare (Anki, vegan, chunks...)</span></div>
-    <div class="stat"><span class="em">⚖️</span><b>${italki} / ${n - italki}</b><span>italki / Preply</span></div>`;
+    <div class="stat"><span class="em">🧑‍🏫</span><b>${n}</b><span>natifs d'Allemagne, ok débutants</span></div>
+    <div class="stat c"><span class="em">💎</span><b>${top}</b><span>coups de cœur (score ≥ 10)</span></div>
+    <div class="stat"><span class="em">🌱</span><b>${fresh}</b><span>nouveaux à former (&lt; 300 cours)</span></div>
+    <div class="stat o"><span class="em">🐻</span><b>${berlin}</b><span>basés à Berlin · ${italki} sur italki</span></div>`;
 }
 
 document.getElementById("q").addEventListener("input", e => {
@@ -295,6 +311,11 @@ document.getElementById("q").addEventListener("input", e => {
 document.getElementById("sort").addEventListener("change", e => {
   state.sort = e.target.value; render();
 });
+document.querySelectorAll(".fchip[data-tier]").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".fchip[data-tier]").forEach(x => x.setAttribute("aria-pressed", "false"));
+  b.setAttribute("aria-pressed", "true");
+  state.tier = b.dataset.tier; render();
+}));
 document.querySelectorAll(".fchip[data-platform]").forEach(b => b.addEventListener("click", () => {
   document.querySelectorAll(".fchip[data-platform]").forEach(x => x.setAttribute("aria-pressed", "false"));
   b.setAttribute("aria-pressed", "true");
