@@ -1,0 +1,752 @@
+[
+  {
+    "name": "Sascha K.",
+    "url": "https://www.italki.com/en/teacher/8201340",
+    "platform": "italki",
+    "teacher_id": "8201340",
+    "native_german_evidence": "A Berlin-based native German tutor specializing in Business German and conversational fluency",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "conversational",
+      "relaxed",
+      "goal-oriented",
+      "flexible"
+    ],
+    "bio_snippets": [
+      "A Berlin-based native German tutor specializing in Business German and conversational fluency. Sascha tailors lessons to your goals, blending real-world examples with a relaxed, mistake-friendly approach.",
+      "when not teaching, he enjoys cooking plant-based meals or planning bicycle adventures",
+      "his teaching style is goal-oriented and tailored to individual needs, with classes that are well-prepared and structured with the freedom to adjust to your progress"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Ahiru",
+    "url": "https://www.italki.com/en/teacher/516278",
+    "platform": "italki",
+    "teacher_id": "516278",
+    "native_german_evidence": null,
+    "from_germany": true,
+    "city": "Borken (origine), enseigne en ligne",
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "anki"
+    ],
+    "bio_snippets": [
+      "Ahiru provides Anki-Flashcard Decks so vocabulary learning can be done efficiently.",
+      "He has more than 30 years of teaching experience, and his teaching style is student-activity-centered, with lessons that emphasize student participation and talking time",
+      "Started teaching after school in 1992, working with institutions like Studienkreis, Schülerhilfe, and Volkshochschule in Borken",
+      "Ahiru provides Anki-Flashcard Decks so vocabulary learning can be done efficiently"
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Rieke",
+    "url": "https://www.italki.com/en/teacher/6223284",
+    "platform": "italki",
+    "teacher_id": "6223284",
+    "native_german_evidence": "A German teacher living in Dortmund, Germany who is interested in vegane Ernährung (vegan diet)",
+    "from_germany": true,
+    "city": "Dortmund",
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "vegan"
+    ],
+    "bio_snippets": [
+      "Rieke is a German teacher from Dortmund, Germany. She has studied German language and literature and holds a Master's degree in European Linguistics.",
+      "she is interested in music, literature, meditation, animal rights, and vegan nutrition",
+      "she is not accepting new students (\"ICH NEHME KEINE NEUEN SCHÜLER AN\")"
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Daniel (Deutschlehrer)",
+    "url": "https://www.italki.com/en/teacher/4204543",
+    "platform": "italki",
+    "teacher_id": "4204543",
+    "native_german_evidence": "a native German language teacher with a University Degree in Germanistik",
+    "from_germany": null,
+    "city": "Amsterdam",
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": "over 2000 lessons on italki",
+    "teacher_type": null,
+    "keywords_found": [
+      "vegetarian",
+      "flexible",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Daniel is a native German language teacher with a University Degree in Germanistik, Politics & Media Communication (Magister Artium) and more than 7 years of experience teaching German",
+      "He enjoys traveling, healthy food (is vegetarian), and doing meditation.",
+      "His teaching goal is to get students speaking German right away, starting with basic small talk that can be used in real-life situations.",
+      "Student reviews consistently praise his teaching ability, patience, and structured yet flexible approach to instruction.",
+      "He is currently living in Amsterdam, Netherlands."
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Matthias Woelki",
+    "url": "https://www.italki.com/en/teacher/12727645",
+    "platform": "italki",
+    "teacher_id": "12727645",
+    "native_german_evidence": "Matthias is from Berlin and is a native German speaker",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "flexible"
+    ],
+    "bio_snippets": [
+      "Matthias is from Berlin and is a native German speaker who can teach you German.",
+      "His teaching approach focuses on the learner's interests, ideas, and hobbies from the beginning.",
+      "experience in teaching after giving private lessons in a wide range of fields: Mathematics, German, English, Chemistry, Biology"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Daniel",
+    "url": "https://www.italki.com/en/teacher/4881109",
+    "platform": "italki",
+    "teacher_id": "4881109",
+    "native_german_evidence": "Daniel is from Germany and living in Berlin, Germany, and he is a native German speaker",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": true,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "flexible",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Daniel is from Germany and living in Berlin, Germany, and he is a native German speaker.",
+      "Berlin is his home, and he has lived in NYC, Chicago, San Francisco, Rome, Mexico City, Buenos Aires, on Vancouver Island and in Vietnam.",
+      "As a former Communications Director and spokesperson for an international company he is very familiar with the business world as well as business English and business German.",
+      "His interests include hiking, kayaking, yoga and meditation as well as politics, art, architecture and current events.",
+      "positive student reviews of Daniel's teaching, noting his experience, patience, and ability to tailor lessons to individual needs"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Linus Komnick",
+    "url": "https://www.italki.com/en/teacher/3637579",
+    "platform": "italki",
+    "teacher_id": "3637579",
+    "native_german_evidence": "Linus Komnick is 30 years old, from Berlin, and German is his native language",
+    "from_germany": true,
+    "city": "Luque, Paraguay (originally from Berlin)",
+    "berlin": true,
+    "speaks_english": true,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin"
+    ],
+    "bio_snippets": [
+      "Linus Komnick is 30 years old, from Berlin, and German is his native language. He is a German teacher and influencer with over 6 years of teaching experience.",
+      "He has been teaching German on italki for 8 years, and he speaks English, Spanish, French, Italian, and Esperanto in addition to German.",
+      "He offers lessons that are designed to be fun, useful, and challenging, and can provide clear step-by-step guidance if preferred.",
+      "Linus is currently living in Luque, Paraguay, despite being originally from Berlin."
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Joerg (Joerg Berlin Deutsch)",
+    "url": "https://www.italki.com/en/teacher/9273852",
+    "platform": "italki",
+    "teacher_id": "9273852",
+    "native_german_evidence": "Jörg is born in Germany and living in Berlin",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": true,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "conversational",
+      "flexible"
+    ],
+    "bio_snippets": [
+      "Jörg is born in Germany and living in Berlin.",
+      "Joerg offers conversation classes where students talk about almost everything and learn how to discuss it. From day one, lessons are conducted in German and progress naturally.",
+      "English is used as a transmitting language when German is not yet sufficient.",
+      "student reviews, Joerg is described as flexible, a good listener, and an engaging conversation partner, and he is noted as being very patient"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Lars",
+    "url": "https://www.italki.com/en/teacher/4442581",
+    "platform": "italki",
+    "teacher_id": "4442581",
+    "native_german_evidence": "Lars was born and raised in Berlin, Germany",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin"
+    ],
+    "bio_snippets": [
+      "Lars was born and raised in Berlin, Germany.",
+      "Over 17 years of experience... patient, tailored techniques to ensure effective learning without pressure",
+      "adaptable to student needs, reformatting lessons to match individual learning preferences"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Lars",
+    "url": "https://www.italki.com/en/teacher/4036558",
+    "platform": "italki",
+    "teacher_id": "4036558",
+    "native_german_evidence": "Lars is raised and born in Berlin and currently living in Berlin, Germany",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin"
+    ],
+    "bio_snippets": [
+      "Lars is raised and born in Berlin and currently living in Berlin, Germany. He studied in the faculty of theater studies and graduated from Free University Berlin.",
+      "He went to Keio University Tokyo as part of his master studies and spent many years in Japan, where he also worked at the Goethe Institut Tokyo. He started private teaching in 2014.",
+      "he has no accent and teaches in standard German"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Tina",
+    "url": "https://www.italki.com/en/teacher/4963888",
+    "platform": "italki",
+    "teacher_id": "4963888",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "relaxed",
+      "conversational",
+      "beginner-friendly"
+    ],
+    "bio_snippets": [
+      "Tina has been teaching German for about 8 years and lives in Berlin, Germany, offering to learn German naturally with fun and a relaxed atmosphere.",
+      "In her lessons, she focuses on speaking German while also practicing reading, writing, and listening skills together.",
+      "All levels are welcome, from beginners to advanced learners.",
+      "Student reviews highlight that she is a great tutor for practicing German in a relaxed, unstructured way via conversation practice"
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Falk",
+    "url": "https://www.italki.com/en/teacher/11238054",
+    "platform": "italki",
+    "teacher_id": "11238054",
+    "native_german_evidence": "He is a native German speaker from Berlin with over 8 years of experience in teaching",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "relaxed",
+      "goal-oriented"
+    ],
+    "bio_snippets": [
+      "Falk is from Berlin and is an online German teacher. He is a native German speaker from Berlin with over 8 years of experience in teaching.",
+      "Falk offers a relaxed and friendly atmosphere and provides self-study materials, with all lesson contents documented in a GoogleDoc.",
+      "He tailors lessons to your goals and can prepare students for exams like Goethe Institut and TELC.",
+      "Each lesson is 50 minutes long."
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Lucas",
+    "url": "https://www.italki.com/en/teacher/29751411",
+    "platform": "italki",
+    "teacher_id": "29751411",
+    "native_german_evidence": "He is 25 years old and from Berlin",
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "conversational",
+      "relaxed"
+    ],
+    "bio_snippets": [
+      "Lucas is a German teacher living in Berlin who teaches in a friendly atmosphere with patience and no fear of making mistakes. He is 25 years old and from Berlin.",
+      "Lucas completed his Bachelor's degree in Psychology and combines his experience teaching German and piano with his own experience as a language learner.",
+      "the most important thing is to create a space where you can experiment without pressure or stress, make mistakes, learn from them, and enjoy speaking",
+      "The focus of his conversation lessons is on building confidence, getting into the flow of speaking, and learning through practice, with the goal of giving you as much speaking time as possible.",
+      "he takes notes on corrections, useful phrases, and new vocabulary, which he sends to you afterwards"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Jenny",
+    "url": "https://www.italki.com/en/teacher/7415470",
+    "platform": "italki",
+    "teacher_id": "7415470",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "no-textbook",
+      "conversational",
+      "relaxed",
+      "flexible"
+    ],
+    "bio_snippets": [
+      "Her lessons are well-structured and follow a clear learning program, even without using textbooks.",
+      "She is extremely patient and friendly, and lessons involve chatting about everything in a way that feels like catching up with a friend rather than \"work\" or \"practice\".",
+      "she is very patient and will adapt to any form of studying that matches her students best",
+      "Jenny is 27 years old and is an official translator and interpreter who has worked for years as a private German teacher.",
+      "She describes herself as not being a strict and rigid teacher, and has created a podcast for her students",
+      "corrects errors in a non-invasive way that encourages good conversation flow"
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Patricia",
+    "url": "https://www.italki.com/en/teacher/1210798",
+    "platform": "italki",
+    "teacher_id": "1210798",
+    "native_german_evidence": null,
+    "from_germany": true,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "no-textbook",
+      "flexible",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "She adapts to students in shared Google docs, offering lessons with or without a textbook based on preference. Some students prefer free style lessons while others prefer more guided ones, and conversation usually focuses on students' thoughts and experiences.",
+      "A German teacher with an unconventional background (MA in Latin, Ancient Greek and Philosophy, plus MBA), who focuses on flawless German and specializes in teaching literature, philosophy, and business German",
+      "Patricia is a native German speaker... living in Berlin, Germany",
+      "targets her lessons to individual learning styles and needs"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Hanna",
+    "url": "https://www.italki.com/en/teacher/11646970",
+    "platform": "italki",
+    "teacher_id": "11646970",
+    "native_german_evidence": null,
+    "from_germany": true,
+    "city": "Heidelberg",
+    "berlin": false,
+    "speaks_english": true,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": "professional",
+    "keywords_found": [
+      "beginner-friendly",
+      "no-textbook",
+      "conversational",
+      "relaxed"
+    ],
+    "bio_snippets": [
+      "A professional German tutor living in Heidelberg with 1000+ students, described as a \"beginner-friendly\" tutor who helps turn uncertain learners into confident conversationalists.",
+      "With 8+ years of experience, she focuses on practical fluency and helps students speak naturally without robotic textbook drills.",
+      "She conducts German sessions in German and English sessions in English, with additional support for complete beginners as needed.",
+      "as an MA student in German/English, she crafts personalized lessons packed with real-life dialogues, cultural tidbits, and zero stress"
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Sarah Estarin",
+    "url": "https://www.italki.com/en/teacher/6056568",
+    "platform": "italki",
+    "teacher_id": "6056568",
+    "native_german_evidence": "Sarah Estarin is a native speaker from Germany who guides students on their way to success learning German",
+    "from_germany": true,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": "more than 8,000 lessons taught (online, 1on1)",
+    "teacher_type": "professional",
+    "keywords_found": [],
+    "bio_snippets": [
+      "Sarah Estarin is a native speaker from Germany who guides students on their way to success learning German. She is a professional teacher with more than 8,000 lessons taught online on a one-on-one basis, using a professional systematic approach."
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Jennifer",
+    "url": "https://www.italki.com/en/teacher/7252864",
+    "platform": "italki",
+    "teacher_id": "7252864",
+    "native_german_evidence": "A native German speaker and fluent in English",
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": true,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "relaxed",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Jennifer - A native German speaker and fluent in English. Students practice speaking and pronunciation in a very relaxed and friendly environment."
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Jo (Jo老师 / Jonathan)",
+    "url": "https://www.italki.com/en/teacher/2417419",
+    "platform": "italki",
+    "teacher_id": "2417419",
+    "native_german_evidence": "a native German speaker living in Berlin who teaches conversational German",
+    "from_germany": null,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "berlin",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Jo老师 (Jonathan) is a German teacher living in Berlin who offers conversational German lessons with smart corrections.",
+      "Jonathan has been learning Mandarin Chinese for 10 years in his free time and enjoys sports.",
+      "Student reviews indicate that Jo老师 is very serious about teaching, corrects mistakes promptly, and conducts conversations on everyday topics in German."
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Stephanie",
+    "url": "https://www.italki.com/en/teacher/10097710",
+    "platform": "italki",
+    "teacher_id": "10097710",
+    "native_german_evidence": "a community tutor who is a native German speaker living in Berlin",
+    "from_germany": null,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": "community",
+    "keywords_found": [
+      "berlin",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Stephanie, a community tutor who is a native German speaker living in Berlin",
+      "These tutors focus on helping students improve their conversational skills and ability to express themselves on a variety of subjects and situations."
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Tuyet Chinh Pham Thi",
+    "url": "https://www.italki.com/en/teacher/5041906/german",
+    "platform": "italki",
+    "teacher_id": "5041906",
+    "native_german_evidence": "a community tutor who is a native German speaker based in Berlin",
+    "from_germany": null,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": "community",
+    "keywords_found": [
+      "berlin",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Tuyet Chinh, a community tutor who is a native German speaker based in Berlin"
+    ],
+    "confidence_native_from_germany": "low"
+  },
+  {
+    "name": "Nicola (Deutsch mit Nicola)",
+    "url": "https://www.italki.com/en/teacher/9787714",
+    "platform": "italki",
+    "teacher_id": "9787714",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": "Berlin",
+    "berlin": true,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": "community",
+    "keywords_found": [
+      "berlin"
+    ],
+    "bio_snippets": [
+      "Nicola, a community tutor from Berlin"
+    ],
+    "confidence_native_from_germany": "low"
+  },
+  {
+    "name": "Dominik",
+    "url": "https://www.italki.com/en/teacher/5418140",
+    "platform": "italki",
+    "teacher_id": "5418140",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": "trial lessons starting at USD 20.00+ and conversation classes at USD 30.00+",
+    "rating": "5.0",
+    "lessons": "4,328 lessons completed",
+    "teacher_type": null,
+    "keywords_found": [
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Dominik - 5.0 rating with 477 students and 4,328 lessons completed, offering trial lessons starting at USD 20.00+ and conversation classes at USD 30.00+",
+      "makes his students feel very comfortable and at ease... gives learners confidence",
+      "has studied so many languages and knows effective strategies for learning quickly and efficiently"
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Anika",
+    "url": "https://www.italki.com/en/teacher/7878617",
+    "platform": "italki",
+    "teacher_id": "7878617",
+    "native_german_evidence": "She is a native German speaker and an industrial engineer with more than 5,000 taught lessons",
+    "from_germany": null,
+    "city": "Blumenau, Brazil",
+    "berlin": false,
+    "speaks_english": true,
+    "price": null,
+    "rating": null,
+    "lessons": "more than 5,000 taught lessons",
+    "teacher_type": null,
+    "keywords_found": [
+      "flexible"
+    ],
+    "bio_snippets": [
+      "She is a native German speaker and an industrial engineer with more than 5,000 taught lessons. She is currently living in Blumenau, Brazil, and previously lived in Portugal for six years.",
+      "She has a degree in Industrial Engineering & Management and is certified through the Goethe Institute to teach German. She also speaks Portuguese and previously taught English",
+      "she is conscientious, flexible with learning styles, prepares exercises and homework, and adapts quickly to students' mixed level German skills"
+    ],
+    "confidence_native_from_germany": "medium"
+  },
+  {
+    "name": "Maria",
+    "url": "https://www.italki.com/en/teacher/30934829",
+    "platform": "italki",
+    "teacher_id": "30934829",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "goal-oriented",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "This teacher structures lessons individually and in a goal-oriented manner for learners from A1 to C1. Lessons are communicative, creative, and practical, with a clear focus on speaking and authentic everyday situations."
+    ],
+    "confidence_native_from_germany": "low"
+  },
+  {
+    "name": "Martina Gallus",
+    "url": "https://www.italki.com/en/teacher/7750284",
+    "platform": "italki",
+    "teacher_id": "7750284",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "goal-oriented",
+      "flexible",
+      "conversational"
+    ],
+    "bio_snippets": [
+      "Each lesson is tailored to your goals and learning pace, with a mix of structured materials and proven resources that keep lessons flexible and focused on conversation, grammar, or business communication."
+    ],
+    "confidence_native_from_germany": "low"
+  },
+  {
+    "name": "Irma Eibert",
+    "url": "https://www.italki.com/en/teacher/12377932",
+    "platform": "italki",
+    "teacher_id": "12377932",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "relaxed"
+    ],
+    "bio_snippets": [
+      "Irma creates a relaxed and encouraging learning environment and is patient, making speaking German feel natural and enjoyable."
+    ],
+    "confidence_native_from_germany": "low"
+  },
+  {
+    "name": "Arthur",
+    "url": "https://www.italki.com/en/teacher/8494494",
+    "platform": "italki",
+    "teacher_id": "8494494",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "keywords_found": [
+      "conversational",
+      "flexible"
+    ],
+    "bio_snippets": [
+      "A conversational German teacher who makes lessons interesting and tailored to individual learning styles, with 4+ years on italki."
+    ],
+    "confidence_native_from_germany": "low"
+  },
+  {
+    "name": "Chris (Chris German Stories)",
+    "url": "https://www.italki.com/en/teacher/3046260",
+    "platform": "italki",
+    "teacher_id": "3046260",
+    "native_german_evidence": null,
+    "from_germany": true,
+    "city": "Anshan, Chine (natif d’Allemagne)",
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": "5000+ taught lessons on italki since 2016",
+    "teacher_type": "professional",
+    "keywords_found": [
+      "unconventional"
+    ],
+    "bio_snippets": [
+      "Chris is a certified language teacher with 5000+ taught lessons on italki since 2016",
+      "His approach involves giving students episodes of learning stories he created, with PDFs and audio files that teach new words and grammar in an entertaining way.",
+      "He provides access to an app with his private vocabulary course containing words and phrases from lessons adapted for easy learning, which he reviews with students at the beginning of each class.",
+      "Chris is a native German speaker from Germany who is currently living in Anshan, China",
+      "teaches in a calm, structured way using short stories... students read a story, understand it step by step"
+    ],
+    "confidence_native_from_germany": "high"
+  },
+  {
+    "name": "Lea K.",
+    "url": "https://www.italki.com/en/teacher/6442038",
+    "platform": "italki",
+    "teacher_id": "6442038",
+    "native_german_evidence": null,
+    "from_germany": null,
+    "city": null,
+    "berlin": false,
+    "speaks_english": null,
+    "price": null,
+    "rating": null,
+    "lessons": "over 10,000 lessons",
+    "teacher_type": null,
+    "keywords_found": [],
+    "bio_snippets": [
+      "Lea K., a highly-rated German tutor with 793 students and over 10,000 lessons",
+      "German teachers on italki mention offering flashcards in their teaching materials, including Lea K."
+    ],
+    "confidence_native_from_germany": "low"
+  }
+]
