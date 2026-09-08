@@ -69,8 +69,6 @@ h1{font-size:clamp(32px,5.2vw,50px);line-height:1.05;margin:.05em 0 .3em}
 @media(max-width:860px){.grid{grid-template-columns:1fr}}
 .card{background:#fff;border:2px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:0 6px 0 var(--line-d);display:flex;flex-direction:column;gap:12px;transition:transform .16s var(--e),box-shadow .16s var(--e)}
 .card:hover{transform:translateY(-4px);box-shadow:0 10px 0 var(--line-d)}
-.card.fav{border-color:var(--coral);box-shadow:0 6px 0 var(--coral-b)}
-.card.fav:hover{box-shadow:0 10px 0 var(--coral-b)}
 .tiers{display:flex;gap:8px;flex-wrap:wrap;margin:-2px 0 -4px}
 .ttag{font-size:12px;font-weight:800;border-radius:999px;padding:5px 12px;letter-spacing:.02em}
 .ttag.top{color:var(--coral-d);background:var(--rose);box-shadow:0 3px 0 var(--rose-sh)}
@@ -250,9 +248,11 @@ function cardHtml(t, i) {
     <details class="quote"><summary>ce que dit son profil</summary>
       <ul>${snippets.slice(0, 4).map(s => `<li>« ${esc(s)} »</li>`).join("")}</ul>
     </details>` : "";
+  const lessonsMeta = t.lessons_count != null ? t.lessons_count + " cours"
+    : (t.lessons && /^\d+$/.test(String(t.lessons).trim()) ? esc(t.lessons) + " cours" : null);
   const meta = [t.city ? "📍 " + esc(t.city) : null,
                 t.rating ? "⭐ " + esc(t.rating) : null,
-                t.lessons ? esc(t.lessons) + " cours" : null,
+                lessonsMeta,
                 (t.confidence && t.confidence !== "high") ? "natif à confirmer" : null]
     .filter(Boolean).join(" · ");
   const lessonsNote = t.lessons_count != null ? " · " + t.lessons_count + " cours" : "";
@@ -260,7 +260,7 @@ function cardHtml(t, i) {
     t.is_top ? `<span class="ttag top">💎 coup de cœur</span>` : "",
     t.is_new ? `<span class="ttag new">🌱 à former${lessonsNote}</span>` : "",
   ].join("");
-  return `<article class="card${t.is_top ? " fav" : ""}">
+  return `<article class="card">
     ${tiers ? `<div class="tiers">${tiers}</div>` : ""}
     <div class="chead">
       ${avatarHtml(t, i)}

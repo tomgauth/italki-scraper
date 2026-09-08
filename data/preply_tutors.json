@@ -9,7 +9,7 @@
     "city": "Central America (living there; from Germany)",
     "berlin": false,
     "speaks_english": null,
-    "price": "$43-$49 per 50-minute lesson depending on the time zone",
+    "price": "$49 / 50 min",
     "rating": "5.0 lesson rating; 4.9 for reassurance, clarity, progress, and preparation",
     "reviews": "62 anonymous student reviews",
     "keywords_found": [
@@ -21,14 +21,17 @@
       "She has been living happily in Central America for several years",
       "highly rated and experienced Super Tutor on Preply"
     ],
-    "confidence_native_from_germany": "high"
+    "confidence_native_from_germany": "high",
+    "lessons_count": 2918,
+    "students_count": 30,
+    "teaches_beginners": true
   },
   {
     "name": "Deborah C.",
     "url": "https://preply.com/en/tutor/128329",
     "platform": "preply",
     "tutor_id": "128329",
-    "native_german_evidence": "Certified, native German tutor A1-C2 with 5 years of experience",
+    "native_german_evidence": "a friendly German tutor from Germany",
     "from_germany": true,
     "city": null,
     "berlin": false,
@@ -48,30 +51,6 @@
       "she nurtured her passion for languages by living in Spain, England, Mexico and California in her twenties, and she speaks five languages herself"
     ],
     "confidence_native_from_germany": "high"
-  },
-  {
-    "name": "Daniel E.",
-    "url": "https://preply.com/en/tutor/135269",
-    "platform": "preply",
-    "tutor_id": "135269",
-    "native_german_evidence": "Professional native german teacher",
-    "from_germany": null,
-    "city": null,
-    "berlin": false,
-    "speaks_english": null,
-    "price": null,
-    "rating": null,
-    "reviews": null,
-    "keywords_found": [
-      "vegetarian",
-      "conversational"
-    ],
-    "bio_snippets": [
-      "Daniel is a native German language teacher with a University Degree in Germanistik, Politics & Mediacommunication and more than 6 years experience teaching German. He enjoys traveling, healthy food (and is vegetarian) and doing yoga.",
-      "His lessons are structured, combining conversation, grammar, and tailored exercises to match each learner's needs and interests.",
-      "reviews describing him as knowledgeable, patient, and reliable with clear explanations and structured approach"
-    ],
-    "confidence_native_from_germany": "medium"
   },
   {
     "name": "Jan W.",
@@ -227,32 +206,6 @@
     "confidence_native_from_germany": "high"
   },
   {
-    "name": "Falk W.",
-    "url": "https://preply.com/en/tutor/1084563",
-    "platform": "preply",
-    "tutor_id": "1084563",
-    "native_german_evidence": "native German speaker from Berlin with over 8 years of experience in teaching",
-    "from_germany": true,
-    "city": "Berlin",
-    "berlin": true,
-    "speaks_english": true,
-    "price": null,
-    "rating": null,
-    "reviews": null,
-    "keywords_found": [
-      "berlin",
-      "conversational"
-    ],
-    "bio_snippets": [
-      "Falk W., Experienced Online German Teacher from Berlin",
-      "Falk W. is a native German speaker from Berlin with over 8 years of experience in teaching, including more than 10,000 hours of online and offline instruction.",
-      "His English is fluent and he is always well-organized and on-time.",
-      "he has a good ear to catch mistakes and correct them without interrupting the flow of conversations",
-      "lessons typically balance interesting conversation, grammar exercises, and practice reading/writing"
-    ],
-    "confidence_native_from_germany": "high"
-  },
-  {
     "name": "Christiane A.",
     "url": "https://preply.com/en/tutor/176193",
     "platform": "preply",
@@ -373,7 +326,8 @@
       "Offers lessons tailored to personal needs in a relaxed learning atmosphere with lots of speaking practice.",
       "She emphasizes that it doesn't matter if you're fluent or not, as she adjusts to your level so you don't feel overwhelmed, and that learning a language should be fun."
     ],
-    "confidence_native_from_germany": "medium"
+    "confidence_native_from_germany": "medium",
+    "teaches_beginners": false
   },
   {
     "name": "Anna F.",
@@ -521,9 +475,11 @@
     "bio_snippets": [
       "Melissa M., Learn German with a motivating native speaker - Personalized, relaxed & multilingual",
       "She teaches as a native German speaker with a communicative, practical approach based on real-life conversations, everyday situations, and targeted exercises tailored to each learner's level and goals.",
-      "She designs lessons that fit your daily life and goals, and teaches in a practical, relaxed way with topics that truly interest you to keep you motivated and help you see fast progress."
+      "She designs lessons that fit your daily life and goals, and teaches in a practical, relaxed way with topics that truly interest you to keep you motivated and help you see fast progress.",
+      "Her page carries the Preply \"Newly joined\" badge"
     ],
-    "confidence_native_from_germany": "high"
+    "confidence_native_from_germany": "high",
+    "is_new": true
   },
   {
     "name": "Sam S.",
@@ -693,8 +649,8 @@
     "url": "https://preply.com/en/tutor/4534146",
     "platform": "preply",
     "tutor_id": "4534146",
-    "native_german_evidence": null,
-    "from_germany": null,
+    "native_german_evidence": "a German tutor from Berlin",
+    "from_germany": true,
     "city": "Berlin (lives there)",
     "berlin": true,
     "speaks_english": null,
@@ -819,7 +775,7 @@
     "platform": "preply",
     "tutor_id": "4477737",
     "native_german_evidence": "Conversation and text type training with native German speaker",
-    "from_germany": null,
+    "from_germany": false,
     "city": null,
     "berlin": false,
     "speaks_english": null,
@@ -897,8 +853,8 @@
     "url": "https://preply.com/en/tutor/4213649",
     "platform": "preply",
     "tutor_id": "4213649",
-    "native_german_evidence": "NATIVE German Speaker | Speaks English and Turkish",
-    "from_germany": null,
+    "native_german_evidence": "born and raised in Germany",
+    "from_germany": true,
     "city": null,
     "berlin": false,
     "speaks_english": true,

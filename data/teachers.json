@@ -23,7 +23,13 @@
       "relaxed",
       "goal-oriented",
       "flexible"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Ahiru",
@@ -46,33 +52,48 @@
     ],
     "flags": [
       "anki"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Daniel (Deutschlehrer)",
     "url": "https://www.italki.com/en/teacher/4204543",
     "platform": "italki",
     "photo": null,
-    "city": "Amsterdam",
+    "city": "Amsterdam (diplômé en Allemagne)",
     "berlin": false,
     "price": null,
     "rating": null,
     "lessons": "over 2000 lessons on italki",
     "teacher_type": null,
-    "native_evidence": "a native German language teacher with a University Degree in Germanistik",
+    "native_evidence": "native German language teacher with a University Degree in Germanistik (Magister Artium)",
     "confidence": "medium",
     "bio_snippets": [
       "Daniel is a native German language teacher with a University Degree in Germanistik, Politics & Media Communication (Magister Artium) and more than 7 years of experience teaching German",
       "He enjoys traveling, healthy food (is vegetarian), and doing meditation.",
       "His teaching goal is to get students speaking German right away, starting with basic small talk that can be used in real-life situations.",
       "Student reviews consistently praise his teaching ability, patience, and structured yet flexible approach to instruction.",
-      "He is currently living in Amsterdam, Netherlands."
+      "He is currently living in Amsterdam, Netherlands.",
+      "Native German teacher with a University Degree in Germanistik, Politics & Mediacommunication (Magister Artium), more than 7 years experience",
+      "Teaching approach focuses on getting students talking German right away, starting with basic small talks for real-life use",
+      "He has taught over 2000 lessons successfully on italki"
     ],
     "flags": [
       "vegetarian",
       "flexible",
       "conversational"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": 2000,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Matthias Woelki",
@@ -95,7 +116,13 @@
     "flags": [
       "berlin",
       "flexible"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Daniel",
@@ -121,7 +148,13 @@
       "berlin",
       "flexible",
       "conversational"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Linus Komnick",
@@ -144,7 +177,13 @@
     ],
     "flags": [
       "berlin"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Joerg (Joerg Berlin Deutsch)",
@@ -169,7 +208,13 @@
       "berlin",
       "conversational",
       "flexible"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Lars",
@@ -191,7 +236,13 @@
     ],
     "flags": [
       "berlin"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Lars",
@@ -213,7 +264,13 @@
     ],
     "flags": [
       "berlin"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Tina",
@@ -232,21 +289,29 @@
       "Tina has been teaching German for about 8 years and lives in Berlin, Germany, offering to learn German naturally with fun and a relaxed atmosphere.",
       "In her lessons, she focuses on speaking German while also practicing reading, writing, and listening skills together.",
       "All levels are welcome, from beginners to advanced learners.",
-      "Student reviews highlight that she is a great tutor for practicing German in a relaxed, unstructured way via conversation practice"
+      "Student reviews highlight that she is a great tutor for practicing German in a relaxed, unstructured way via conversation practice",
+      "Tina is a native German speaker living in Berlin, teaching German for about 8 years",
+      "All levels are welcome, from beginners to advanced learners"
     ],
     "flags": [
       "berlin",
       "relaxed",
       "conversational",
       "beginner-friendly"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Falk",
     "url": "https://www.italki.com/en/teacher/11238054",
     "platform": "italki",
     "photo": null,
-    "city": "Berlin",
+    "city": "Berlin (origine), vit à Tokyo",
     "berlin": true,
     "price": null,
     "rating": null,
@@ -258,13 +323,21 @@
       "Falk is from Berlin and is an online German teacher. He is a native German speaker from Berlin with over 8 years of experience in teaching.",
       "Falk offers a relaxed and friendly atmosphere and provides self-study materials, with all lesson contents documented in a GoogleDoc.",
       "He tailors lessons to your goals and can prepare students for exams like Goethe Institut and TELC.",
-      "Each lesson is 50 minutes long."
+      "Each lesson is 50 minutes long.",
+      "Falk is from Berlin and is an online German teacher currently living in Tokyo, Japan",
+      "suitable for complete beginners"
     ],
     "flags": [
       "berlin",
       "relaxed",
       "goal-oriented"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Lucas",
@@ -284,41 +357,21 @@
       "Lucas completed his Bachelor's degree in Psychology and combines his experience teaching German and piano with his own experience as a language learner.",
       "the most important thing is to create a space where you can experiment without pressure or stress, make mistakes, learn from them, and enjoy speaking",
       "The focus of his conversation lessons is on building confidence, getting into the flow of speaking, and learning through practice, with the goal of giving you as much speaking time as possible.",
-      "he takes notes on corrections, useful phrases, and new vocabulary, which he sends to you afterwards"
+      "he takes notes on corrections, useful phrases, and new vocabulary, which he sends to you afterwards",
+      "Recently completed his Bachelor's degree in Psychology",
+      "sends notes after lessons"
     ],
     "flags": [
       "berlin",
       "conversational",
       "relaxed"
-    ]
-  },
-  {
-    "name": "Jenny",
-    "url": "https://www.italki.com/en/teacher/7415470",
-    "platform": "italki",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": null,
-    "confidence": "medium",
-    "bio_snippets": [
-      "Her lessons are well-structured and follow a clear learning program, even without using textbooks.",
-      "She is extremely patient and friendly, and lessons involve chatting about everything in a way that feels like catching up with a friend rather than \"work\" or \"practice\".",
-      "she is very patient and will adapt to any form of studying that matches her students best",
-      "Jenny is 27 years old and is an official translator and interpreter who has worked for years as a private German teacher.",
-      "She describes herself as not being a strict and rigid teacher, and has created a podcast for her students",
-      "corrects errors in a non-invasive way that encourages good conversation flow"
     ],
-    "flags": [
-      "no-textbook",
-      "conversational",
-      "relaxed",
-      "flexible"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": true
   },
   {
     "name": "Patricia",
@@ -337,13 +390,20 @@
       "She adapts to students in shared Google docs, offering lessons with or without a textbook based on preference. Some students prefer free style lessons while others prefer more guided ones, and conversation usually focuses on students' thoughts and experiences.",
       "A German teacher with an unconventional background (MA in Latin, Ancient Greek and Philosophy, plus MBA), who focuses on flawless German and specializes in teaching literature, philosophy, and business German",
       "Patricia is a native German speaker... living in Berlin, Germany",
-      "targets her lessons to individual learning styles and needs"
+      "targets her lessons to individual learning styles and needs",
+      "works with the BEGEGNUNGEN textbook series A1/A2/B1 when wanted"
     ],
     "flags": [
       "no-textbook",
       "flexible",
       "conversational"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Hanna",
@@ -369,7 +429,13 @@
       "no-textbook",
       "conversational",
       "relaxed"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": 1000,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Sarah Estarin",
@@ -387,28 +453,13 @@
     "bio_snippets": [
       "Sarah Estarin is a native speaker from Germany who guides students on their way to success learning German. She is a professional teacher with more than 8,000 lessons taught online on a one-on-one basis, using a professional systematic approach."
     ],
-    "flags": []
-  },
-  {
-    "name": "Jennifer",
-    "url": "https://www.italki.com/en/teacher/7252864",
-    "platform": "italki",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "A native German speaker and fluent in English",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Jennifer - A native German speaker and fluent in English. Students practice speaking and pronunciation in a very relaxed and friendly environment."
-    ],
-    "flags": [
-      "relaxed",
-      "conversational"
-    ]
+    "flags": [],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Jo (Jo老师 / Jonathan)",
@@ -421,7 +472,7 @@
     "rating": null,
     "lessons": null,
     "teacher_type": null,
-    "native_evidence": "a native German speaker living in Berlin who teaches conversational German",
+    "native_evidence": "He is from Germany and lives in Berlin, Germany",
     "confidence": "medium",
     "bio_snippets": [
       "Jo老师 (Jonathan) is a German teacher living in Berlin who offers conversational German lessons with smart corrections.",
@@ -431,73 +482,40 @@
     "flags": [
       "berlin",
       "conversational"
-    ]
-  },
-  {
-    "name": "Stephanie",
-    "url": "https://www.italki.com/en/teacher/10097710",
-    "platform": "italki",
-    "photo": null,
-    "city": "Berlin",
-    "berlin": true,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": "community",
-    "native_evidence": "a community tutor who is a native German speaker living in Berlin",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Stephanie, a community tutor who is a native German speaker living in Berlin",
-      "These tutors focus on helping students improve their conversational skills and ability to express themselves on a variety of subjects and situations."
     ],
-    "flags": [
-      "berlin",
-      "conversational"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": 3313,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
-    "name": "Dominik",
-    "url": "https://www.italki.com/en/teacher/5418140",
+    "name": "Irma Eibert",
+    "url": "https://www.italki.com/en/teacher/12377932",
     "platform": "italki",
     "photo": null,
     "city": null,
     "berlin": false,
-    "price": "trial lessons starting at USD 20.00+ and conversation classes at USD 30.00+",
-    "rating": "5.0",
-    "lessons": "4,328 lessons completed",
+    "price": null,
+    "rating": null,
+    "lessons": null,
     "teacher_type": null,
     "native_evidence": null,
     "confidence": "medium",
     "bio_snippets": [
-      "Dominik - 5.0 rating with 477 students and 4,328 lessons completed, offering trial lessons starting at USD 20.00+ and conversation classes at USD 30.00+",
-      "makes his students feel very comfortable and at ease... gives learners confidence",
-      "has studied so many languages and knows effective strategies for learning quickly and efficiently"
+      "Irma creates a relaxed and encouraging learning environment and is patient, making speaking German feel natural and enjoyable.",
+      "From West Germany, many years of professional teaching experience"
     ],
     "flags": [
-      "conversational"
-    ]
-  },
-  {
-    "name": "Anika",
-    "url": "https://www.italki.com/en/teacher/7878617",
-    "platform": "italki",
-    "photo": null,
-    "city": "Blumenau, Brazil",
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": "more than 5,000 taught lessons",
-    "teacher_type": null,
-    "native_evidence": "She is a native German speaker and an industrial engineer with more than 5,000 taught lessons",
-    "confidence": "medium",
-    "bio_snippets": [
-      "She is a native German speaker and an industrial engineer with more than 5,000 taught lessons. She is currently living in Blumenau, Brazil, and previously lived in Portugal for six years.",
-      "She has a degree in Industrial Engineering & Management and is certified through the Goethe Institute to teach German. She also speaks Portuguese and previously taught English",
-      "she is conscientious, flexible with learning styles, prepares exercises and homework, and adapts quickly to students' mixed level German skills"
+      "relaxed"
     ],
-    "flags": [
-      "flexible"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Chris (Chris German Stories)",
@@ -521,7 +539,157 @@
     ],
     "flags": [
       "unconventional"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
+  },
+  {
+    "name": "Matze",
+    "url": "https://www.italki.com/en/teacher/32188157",
+    "platform": "italki",
+    "photo": null,
+    "city": "Munich",
+    "berlin": false,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "native_evidence": "\"he is a native German speaker from Germany\"; \"He is living in Munich, Germany\" (search summary of italki profile)",
+    "confidence": "medium",
+    "bio_snippets": [
+      "Students report they can train all language skills - speaking, listening, reading and writing - through his lessons, and his support has helped students improve their German knowledge significantly",
+      "No literal newness text in snippets. Supplementary inference, NOT snippet text: profile ID 32188157 is the single highest italki teacher ID observed in this hunt (higher than confirmed 2024-25-era profiles), consistent with a 2025-era registration; search results surface almost no reviews or history for him."
+    ],
+    "flags": [
+      "Munich",
+      "all language skills"
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": true
+  },
+  {
+    "name": "Alicia",
+    "url": "https://www.italki.com/en/teacher/26034466",
+    "platform": "italki",
+    "photo": null,
+    "city": null,
+    "berlin": false,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "native_evidence": "\"Alicia - From Germany, living in Germany, teaching all levels from A1-C2\" (search summary of italki profile)",
+    "confidence": "medium",
+    "bio_snippets": [
+      "your shortcut to fluent German",
+      "lessons for all levels from A1 to C2, blending lively conversations with real-world culture, history, and interests like gaming and comics",
+      "Her approach is student-centered, tailoring lessons to meet individual learning styles and needs",
+      "punctual, helpful, and constantly providing corrections (student review)",
+      "No literal lessons count in snippets; only a small handful of student reviews appear in search summaries (e.g. \"As always, I had another great lesson with Alicia\"). Supplementary inference, NOT snippet text: profile ID 26034466 is far above 2021-22-era IDs, consistent with a 2023-2024 registration."
+    ],
+    "flags": [
+      "gaming",
+      "comics",
+      "culture",
+      "history",
+      "conversation",
+      "A1-C2",
+      "engaging",
+      "interactive"
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": true
+  },
+  {
+    "name": "Erik Kirstein",
+    "url": "https://www.italki.com/en/teacher/12555316",
+    "platform": "italki",
+    "photo": null,
+    "city": "Mexico City (originally from Germany)",
+    "berlin": false,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "native_evidence": "\"He is 27 years old, is a native German speaker originally from Germany, and currently lives in Mexico City\" (search summary of italki profile)",
+    "confidence": "medium",
+    "bio_snippets": [
+      "He attempts to keep his instruction more practical than theoretical while combining learning with fun",
+      "He offers lessons to help improve German skills and teach about German culture",
+      "Low-volume signal only: \"He has experience giving informal classes to foreign friends who wanted to learn German\" - his stated teaching background is informal, not professional. CAVEAT: profile indexed since Feb 2022, so he is not new to the platform; include only as a possible low-volume lead."
+    ],
+    "flags": [
+      "practical",
+      "fun",
+      "culture",
+      "informal"
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": true
+  },
+  {
+    "name": "Max",
+    "url": "https://www.italki.com/en/teacher/8363469",
+    "platform": "italki",
+    "photo": null,
+    "city": "Nuremberg",
+    "berlin": false,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "native_evidence": "native German from Nuremberg",
+    "confidence": "medium",
+    "bio_snippets": [
+      "Native German teacher from Nuremberg"
+    ],
+    "flags": [],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
+  },
+  {
+    "name": "Elisabeth",
+    "url": "https://www.italki.com/en/teacher/12634586",
+    "platform": "italki",
+    "photo": null,
+    "city": "Cologne",
+    "berlin": false,
+    "price": null,
+    "rating": null,
+    "lessons": null,
+    "teacher_type": null,
+    "native_evidence": "native German from Cologne, teaching since 2018",
+    "confidence": "medium",
+    "bio_snippets": [
+      "Native German teacher from Cologne, teaching since 2018"
+    ],
+    "flags": [],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Teresia S.",
@@ -530,7 +698,7 @@
     "photo": null,
     "city": "Central America (living there; from Germany)",
     "berlin": false,
-    "price": "$43-$49 per 50-minute lesson depending on the time zone",
+    "price": "$49 / 50 min",
     "rating": "5.0 lesson rating; 4.9 for reassurance, clarity, progress, and preparation",
     "lessons": "62 anonymous student reviews",
     "teacher_type": null,
@@ -544,7 +712,13 @@
     ],
     "flags": [
       "vegan"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": true,
+    "lessons_count": 2918,
+    "students_count": 30,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Deborah C.",
@@ -557,7 +731,7 @@
     "rating": null,
     "lessons": null,
     "teacher_type": null,
-    "native_evidence": "Certified, native German tutor A1-C2 with 5 years of experience",
+    "native_evidence": "a friendly German tutor from Germany",
     "confidence": "high",
     "bio_snippets": [
       "Some German tutors on Preply teach vocabulary through conversations and with the Anki flashcard app. For example, one certified native German tutor (Deborah C.) incorporates this method into her lessons for beginners.",
@@ -569,30 +743,13 @@
       "anki",
       "adaptable",
       "conversational"
-    ]
-  },
-  {
-    "name": "Daniel E.",
-    "url": "https://preply.com/en/tutor/135269",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "Professional native german teacher",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Daniel is a native German language teacher with a University Degree in Germanistik, Politics & Mediacommunication and more than 6 years experience teaching German. He enjoys traveling, healthy food (and is vegetarian) and doing yoga.",
-      "His lessons are structured, combining conversation, grammar, and tailored exercises to match each learner's needs and interests.",
-      "reviews describing him as knowledgeable, patient, and reliable with clear explanations and structured approach"
     ],
-    "flags": [
-      "vegetarian",
-      "conversational"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Jan W.",
@@ -617,7 +774,13 @@
       "unconventional",
       "conversational",
       "goal-focused"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Peter R.",
@@ -642,7 +805,13 @@
       "unconventional",
       "goal-focused",
       "adaptable"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Oliver B.",
@@ -668,7 +837,13 @@
       "berlin",
       "conversational",
       "adaptable"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Hannah P.",
@@ -691,7 +866,13 @@
     "flags": [
       "berlin",
       "adaptable"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Anna M.",
@@ -713,7 +894,13 @@
     ],
     "flags": [
       "berlin"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Samuel M.",
@@ -739,32 +926,13 @@
       "conversational",
       "goal-focused",
       "adaptable"
-    ]
-  },
-  {
-    "name": "Falk W.",
-    "url": "https://preply.com/en/tutor/1084563",
-    "platform": "preply",
-    "photo": null,
-    "city": "Berlin",
-    "berlin": true,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "native German speaker from Berlin with over 8 years of experience in teaching",
-    "confidence": "high",
-    "bio_snippets": [
-      "Falk W., Experienced Online German Teacher from Berlin",
-      "Falk W. is a native German speaker from Berlin with over 8 years of experience in teaching, including more than 10,000 hours of online and offline instruction.",
-      "His English is fluent and he is always well-organized and on-time.",
-      "he has a good ear to catch mistakes and correct them without interrupting the flow of conversations",
-      "lessons typically balance interesting conversation, grammar exercises, and practice reading/writing"
     ],
-    "flags": [
-      "berlin",
-      "conversational"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Christiane A.",
@@ -788,7 +956,13 @@
     "flags": [
       "berlin",
       "conversational"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Anja Z.",
@@ -812,31 +986,13 @@
     "flags": [
       "relaxed",
       "conversational"
-    ]
-  },
-  {
-    "name": "Lea Kathinka M.",
-    "url": "https://preply.com/en/tutor/2459604",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "Native Speaker for Conversational German and Job Coaching",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Lea Kathinka M., Native Speaker for Conversational German and Job Coaching",
-      "Offers lessons tailored to personal needs in a relaxed learning atmosphere with lots of speaking practice.",
-      "She emphasizes that it doesn't matter if you're fluent or not, as she adjusts to your level so you don't feel overwhelmed, and that learning a language should be fun."
     ],
-    "flags": [
-      "conversational",
-      "relaxed",
-      "adaptable"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Anna F.",
@@ -863,51 +1019,13 @@
       "flexible",
       "adaptable",
       "conversational"
-    ]
-  },
-  {
-    "name": "Anja S.",
-    "url": "https://preply.com/en/tutor/2506996",
-    "platform": "preply",
-    "photo": null,
-    "city": "Portugal (lived there for the last 3 years)",
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "an enthusiastic native German speaker language coach",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Anja S., 🌸 LANGUAGE COACH FOR KIDS AND ADULTS: Unlock Your Potential with Empathy & Expertise",
-      "Anja is adaptable and an enthusiastic native German speaker language coach. She has lived in Portugal for the last 3 years and understands what it's like to start learning a new language from zero."
     ],
-    "flags": [
-      "adaptable",
-      "beginner-friendly"
-    ]
-  },
-  {
-    "name": "Melissa M.",
-    "url": "https://preply.com/en/tutor/6329117",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "Melissa M. is a native German speaker with a Bachelor's in Management",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Melissa M., Native speaker helps you learn German with fun and structure – for everyday life, work, and travel!",
-      "Melissa M. is a native German speaker with a Bachelor's in Management, skilled in teaching beginners and business contexts. Students say she is adaptable and makes lessons enjoyable and relevant."
-    ],
-    "flags": [
-      "adaptable",
-      "beginner-friendly"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Melissa M.",
@@ -925,14 +1043,21 @@
     "bio_snippets": [
       "Melissa M., Learn German with a motivating native speaker - Personalized, relaxed & multilingual",
       "She teaches as a native German speaker with a communicative, practical approach based on real-life conversations, everyday situations, and targeted exercises tailored to each learner's level and goals.",
-      "She designs lessons that fit your daily life and goals, and teaches in a practical, relaxed way with topics that truly interest you to keep you motivated and help you see fast progress."
+      "She designs lessons that fit your daily life and goals, and teaches in a practical, relaxed way with topics that truly interest you to keep you motivated and help you see fast progress.",
+      "Her page carries the Preply \"Newly joined\" badge"
     ],
     "flags": [
       "relaxed",
       "conversational",
       "adaptable",
       "goal-focused"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": true
   },
   {
     "name": "Sam S.",
@@ -954,28 +1079,13 @@
     ],
     "flags": [
       "conversational"
-    ]
-  },
-  {
-    "name": "Marko S.",
-    "url": "https://preply.com/en/tutor/117912",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "Native German Speaker, excellent English, 10 years of experience ✅",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Marko S., Native German Speaker, excellent English, 10 years of experience ✅",
-      "Students rate Marko highly for calm, well-prepared lessons that adapt to needs."
     ],
-    "flags": [
-      "adaptable"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Jan B.",
@@ -998,7 +1108,13 @@
     "flags": [
       "adaptable",
       "beginner-friendly"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Johannes P.",
@@ -1022,7 +1138,13 @@
     "flags": [
       "flexible",
       "adaptable"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Xaver W.",
@@ -1043,7 +1165,13 @@
     ],
     "flags": [
       "goal-focused"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Nina K.",
@@ -1065,7 +1193,13 @@
     ],
     "flags": [
       "conversational"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Michaela K.",
@@ -1078,7 +1212,7 @@
     "rating": null,
     "lessons": null,
     "teacher_type": null,
-    "native_evidence": null,
+    "native_evidence": "a German tutor from Berlin",
     "confidence": "medium",
     "bio_snippets": [
       "Michaela K., Learning German doesn't have to be difficult – learn at your own pace, with the right topics and a friendly, patient teacher by your side. Not textbook German, but language that works in real life – for children and adults from A1 to C1.",
@@ -1090,7 +1224,13 @@
       "goal-focused",
       "adaptable",
       "beginner-friendly"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Niels G.",
@@ -1115,7 +1255,13 @@
       "relaxed",
       "conversational",
       "adaptable"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Steffen L.",
@@ -1139,7 +1285,13 @@
       "adaptable",
       "goal-focused",
       "beginner-friendly"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Maximilian H.",
@@ -1163,7 +1315,13 @@
     "flags": [
       "relaxed",
       "beginner-friendly"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Tini B.",
@@ -1185,33 +1343,13 @@
     ],
     "flags": [
       "conversational"
-    ]
-  },
-  {
-    "name": "Linda M.",
-    "url": "https://preply.com/en/tutor/4477737",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "Conversation and text type training with native German speaker",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Linda M., Conversation and text type training with native German speaker - Learn German in a relaxed manner & immerse yourself in other cultures! 🌱🌞",
-      "Linda has experience supporting students in German, Latin and English with flashcards, Quizlet-sets, and by explaining and discussing topics, texts and different text types.",
-      "She focuses on good vibes and making learning fun and engaging, with chatting that feels easy and natural while incorporating cultural references",
-      "Linda is a great German teacher who is very nice, open, and positive, and perfectly adapts lessons to individual goals"
     ],
-    "flags": [
-      "relaxed",
-      "conversational",
-      "adaptable",
-      "goal-focused"
-    ]
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Hannah M.",
@@ -1236,7 +1374,13 @@
       "relaxed",
       "goal-focused",
       "conversational"
-    ]
+    ],
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   },
   {
     "name": "Burak K.",
@@ -1249,7 +1393,7 @@
     "rating": null,
     "lessons": null,
     "teacher_type": null,
-    "native_evidence": "NATIVE German Speaker | Speaks English and Turkish",
+    "native_evidence": "born and raised in Germany",
     "confidence": "medium",
     "bio_snippets": [
       "Burak K., NATIVE German Speaker | Speaks English and Turkish",
@@ -1258,65 +1402,12 @@
     "flags": [
       "flexible",
       "adaptable"
-    ]
-  },
-  {
-    "name": "Michael T.",
-    "url": "https://preply.com/en/tutor/3851732",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "Certified teacher for German and native speaker",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Michael T., Certified teacher for German and native speaker + Speak German fluently and confidently + Personalized lessons according to your needs + Guided conversations (no chatter) + General German + From basic (A2) to proficient (C1)"
     ],
-    "flags": [
-      "conversational",
-      "adaptable"
-    ]
-  },
-  {
-    "name": "Sabine A.",
-    "url": "https://preply.com/en/tutor/2153382",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "Let´s have a good conversation in German! (native speaker)",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Sabine A., Let´s have a good conversation in German! (native speaker)"
-    ],
-    "flags": [
-      "conversational"
-    ]
-  },
-  {
-    "name": "Niklas K.",
-    "url": "https://preply.com/en/tutor/3207642",
-    "platform": "preply",
-    "photo": null,
-    "city": null,
-    "berlin": false,
-    "price": null,
-    "rating": null,
-    "lessons": null,
-    "teacher_type": null,
-    "native_evidence": "German Native Speaker with a B.A. in Communication Design",
-    "confidence": "medium",
-    "bio_snippets": [
-      "Niklas K., German Native Speaker with a B.A. in Communication Design"
-    ],
-    "flags": []
+    "from_germany": true,
+    "teaches_beginners": null,
+    "lessons_count": null,
+    "students_count": null,
+    "teacher_since": null,
+    "is_new": false
   }
 ]

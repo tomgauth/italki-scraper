@@ -17,7 +17,7 @@ KEYWORD_GROUPS = {
     "chunks": (4, [r"chunk[- ]based", r"\bchunks?\b", r"\bchunking\b", r"lexical approach",
                    r"syntactic approach"]),
     "conversational": (2, [r"conversation(al)?", r"\bspeaking practice\b", r"\bchat\b",
-                           r"\bdiscussions?\b"]),
+                           r"\bdiscussions?\b", r"talking time", r"\bget(ting)? (you |students? )?talking\b"]),
     "unconventional": (2, [r"unconventional", r"\bno textbooks?\b", r"without (a )?textbook",
                            r"not (very |too )?academic", r"less academic", r"\brelaxed\b",
                            r"\blaid[- ]back\b", r"\bcasual\b", r"\bfun\b", r"no pressure",
